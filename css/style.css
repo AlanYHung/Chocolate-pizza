@@ -5,13 +5,12 @@
 }
 .header{
   align-items: flex-start;
-  /* border: 1px dashed red; */
-  justify-content: space-between;
-  /* background-color: grey; */
-  /* width:960px; */
+  
   display: flex;
-  /* flex-direction: row; */
-  /* flex-flow: flex-end; */
+  
+
+}
+#BlogTitle{
 
 }
 .icons{
