@@ -2,10 +2,17 @@
 /* Universal Section */
 /*===========================================*/
 
-#GrayBar{
+.GrayBar{
   background-color: gray;
   width: 900px;
   height: 15px;
+  margin-top: 30px;
+}
+
+.ThinGrayBar{
+  background-color: rgb(228, 224, 224);
+  width: 428px;
+  height: 2px;
   margin-top: 30px;
 }
 
@@ -133,20 +140,24 @@ p{
   font-weight: bolder;
 }
 
-
 /*===========================================*/
-/* Footer Section */
+/* About Vanessa Section */
 /*===========================================*/
 
-.footer{
-  display:flex;
-  align-items: center;
+#VanessaParent{
+  display: inline-flex;;
+}
+
+#VanessaPhoto{
+  margin-top: 25px;
 }
 
 h2{
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size:18px;
   font-weight:bold;
+  margin-top: 30px;
+  margin-left: 35px;
 }
 
 #AboutVanessa1, #AboutVanessa2{
@@ -155,7 +166,7 @@ h2{
 }
 
 button{
-  background-color:rgb(150, 82, 82);
+  background-color: indianred;
   border: none;
   color: white;
   padding: 7px 30px;
@@ -163,8 +174,36 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  width: 180px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 41px;
 }
 
-#copyright{
-  clear: both;
+
+/*===========================================*/
+/* Footer Section */
+/*===========================================*/
+
+#ClosingFooterLogoSection{
+  display: inline-flex;
+  margin-top: 60px;
+}
+
+#FooterSmallLogo{
+  margin: 14px 6px 10px 6px;
+
+}
+
+#copyright1, #copyright2{
+  color: rgb(156, 153, 153);
+}
+
+#copyright1{
+  margin-left: 260px;
+}
+
+#copyright2{
+  margin-left: 295px;
+  margin-top: -20px;
 }
